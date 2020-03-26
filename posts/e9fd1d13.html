@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="zh-CH" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>【VPS】适合建站的国外VPS服务商 | 花葵日记</title><meta name="description" content="【VPS】适合建站的国外VPS服务商"><meta name="keywords" content="VPS,VPS服务商,Linode,Vultr,Hostwinds,DigitalOcean,搬瓦工"><meta name="author" content="小葵花"><meta name="copyright" content="小葵花"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="【VPS】适合建站的国外VPS服务商"><meta name="twitter:description" content="【VPS】适合建站的国外VPS服务商"><meta name="twitter:image" content="https://www.hkdj.site/img/post.jpg"><meta property="og:type" content="article"><meta property="og:title" content="【VPS】适合建站的国外VPS服务商"><meta property="og:url" content="https://www.hkdj.site/posts/e9fd1d13.html"><meta property="og:site_name" content="花葵日记"><meta property="og:description" content="【VPS】适合建站的国外VPS服务商"><meta property="og:image" content="https://www.hkdj.site/img/post.jpg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      now = new Date();
+      hour = now.getHours();
+      isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://www.hkdj.site/posts/e9fd1d13.html"><link rel="prev" title="【Django】数据库的增删改查" href="https://www.hkdj.site/posts/ccfd9e50.html"><link rel="next" title="【Django】安装配置阿里云发送验证码" href="https://www.hkdj.site/posts/e682b11e.html"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xxx/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: true,
+  copyright: {"languages":{"author":"Author: 小葵花","link":"Link: undefined","source":"Source: 花葵日记","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source."}},
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: false,
+  isFontAwesomeV5: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false
+}</script><meta name="generator" content="Hexo 4.2.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">20</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">36</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">11</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时光轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 清单</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> Movie</span></a></li></ul></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linode-稳定性、性价比最高的VPS服务商"><span class="toc-number">1.</span> <span class="toc-text">Linode  -  稳定性、性价比最高的VPS服务商</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#linode优点："><span class="toc-number">1.1.</span> <span class="toc-text">linode优点：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#linode-价格"><span class="toc-number">1.2.</span> <span class="toc-text">linode 价格</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Vultr"><span class="toc-number">2.</span> <span class="toc-text">Vultr</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Hostwinds"><span class="toc-number">3.</span> <span class="toc-text">Hostwinds</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#搬瓦工"><span class="toc-number">4.</span> <span class="toc-text">搬瓦工</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#DigitalOcean"><span class="toc-number">5.</span> <span class="toc-text">DigitalOcean</span></a></li></ol></div></div></div><div id="body-wrap"><div class="post-bg" id="nav" style="background-image: url(/img/post.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">花葵日记</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时光轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> 清单</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> Movie</span></a></li></ul></div></div></span></div><div id="post-info"><div id="post-title"><div class="posttitle">【VPS】适合建站的国外VPS服务商</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> Created 2019-10-04<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> Updated 2020-03-25</time><span class="post-meta__separator">|</span><span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/VPS/">VPS</a></span><div class="post-meta-wordcount"><div class="post-meta-pv-cv"><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>Post View:</span><span id="busuanzi_value_page_pv"></span></div></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div id="article-container"><blockquote>
+<p>Linode、Vultr、搬瓦工、DigitalOcean都是国内用户非常熟悉的VPS主机商，因为这些VPS做得很大了，拥有相当多的用户，但是2019年后这几家VPS还适合国内用户吗？现在我们就盘点一下这几款VPS，从速度、价格和使用问题等方面进行分析。</p>
+<p>最近很多朋友都反应搬瓦工、Vultr、Linode、DigitalOcean在国内不能访问了，正好最近在关注一些新的VPS，然后结合之前做的评测和使用体验给网友们综合分析下。说得不对的地方大家就留言指正，下面我们就一一进行分析</p>
+</blockquote>
+<h1 id="Linode-稳定性、性价比最高的VPS服务商"><a href="#Linode-稳定性、性价比最高的VPS服务商" class="headerlink" title="Linode  -  稳定性、性价比最高的VPS服务商"></a>Linode  -  稳定性、性价比最高的VPS服务商</h1><blockquote>
+<p><a href="https://www.linode.com/?r=2fff8fe1798860e260993fcdc54d7ad454eb5cc5" target="_blank" rel="noopener">Linode</a>,美国VPS提供商，专注于基于XEN虚拟的VPS，成立于2003年，办公地点在新泽西。<a href="https://www.linode.com/?r=2fff8fe1798860e260993fcdc54d7ad454eb5cc5" target="_blank" rel="noopener">Linode</a> VPS 在业界有着较高的信誉评价,在国外和国内用户中的口碑不错，价格适中。Linode 提供很多了原生的系统（Linode嘛，Linux Node，都是Linux的，没有Windows的），装好基本的系统之后，可以根据自己的需求随便安装什么软件。并且，“重装系统”也非常的方便。这对新手来说，既不复杂上手，也容易将精力集中到学习Linux上。最基本的服务方案是Nanode 1GB，价格和Vultr价格是一样的也是<strong>5刀</strong>每月，但是不支持Windows VPS。这款VPS国内很多用户也在使用，支持信用卡，需要绑定信用卡自动扣款</p>
+</blockquote>
+<p><img src="/" alt="" class="lazyload" data-src="https://hankai.oss-cn-beijing.aliyuncs.com/blogs-resource/picture/Image%20019.png"></p>
+<h2 id="linode优点："><a href="#linode优点：" class="headerlink" title="linode优点："></a><a href="https://www.linode.com/?r=2fff8fe1798860e260993fcdc54d7ad454eb5cc5" target="_blank" rel="noopener">linode</a>优点：</h2><ol>
+<li><p>快速、多机房</p>
+<p>拥有全球最好的6个数据中心，尤其是针对亚洲线路很好的日本、Fremont速度是非常快的，在线率99.99%以上。至少我使用一年多除了我自己几个月重启一次机器，官方是没有任何重启的。</p>
+<p>一般我们中国站长用户会选择日本或者Fremont数据中心，如果有欧洲外贸需求的可以选择伦敦数据中心。如果我们在选择数据中心之后，需要切换机房，可以提交TK让官方处理，可以任意切换数据中心，不需要支付额外的费用</p>
+</li>
+<li><p>24小时在线客服</p>
+<p>如果我们在使用<a href="https://www.linode.com/?r=2fff8fe1798860e260993fcdc54d7ad454eb5cc5" target="_blank" rel="noopener">linode vps</a>出现问题需要指导的时候，我们可以自己搜索网上的解决方案，因为这款VPS用户众多，基本上你遇到的问题已经有人提出来并给予解决方案，如果你需要得到官方的回复，直接在账户后台”Support”菜单处提交Ticket，我们可以在5分钟内得到回复，这样的服务速度有其他商家可以比吗</p>
+</li>
+<li><p>稳定、技术完善</p>
+<p><a href="https://www.linode.com/?r=2fff8fe1798860e260993fcdc54d7ad454eb5cc5" target="_blank" rel="noopener">Linode VPS</a>拥有自主开发的面板，以及强大的技术支持，才能够保证机器的稳定，不要以为有些商家的机器便宜，那些都是在超售的基础之上降价的，其实就等同于降低了品质。从来没有有说因为VPS性能问题，或者个人不稳定导致数据丢失，网站宕机的，除非是整个全球线路很差可能会受到一些影响。即便官方有需要短暂的维护，也会提前通知我们（之前有一次提前2周通知我会在两周之后的某一天某个时间段维护5分钟</p>
+</li>
+</ol>
+<h2 id="linode-价格"><a href="#linode-价格" class="headerlink" title="linode 价格"></a><a href="https://www.linode.com/?r=2fff8fe1798860e260993fcdc54d7ad454eb5cc5" target="_blank" rel="noopener">linode</a> 价格</h2><p><img src="/" alt="" class="lazyload" data-src="https://hankai.oss-cn-beijing.aliyuncs.com/blogs-resource/picture/Image%20024.png"></p>
+<p>目前根据官方提供的方案数据显示，最低方案是1G内存，25G硬盘（SSD固态硬盘）、1000G月流量，当然还有其他的2GB、4GB、8GB等方案，如果还不够我们可以在后台直接升级自己需要的方案。小编当初512M，一直用到现在的2G内存方案（我用的2GB），针对我们适合哪种方案来说，一般用户基础的1GB方案足够使用，只支持双币带VISA的信用卡，只要你信用卡后面带有VISA标志就可以</p>
+<blockquote>
+<p>补充：新用户注册赠送20美金，推荐码/Referral Code (Optional)：2fff8fe1798860e260993fcdc54d7ad454eb5cc5</p>
+</blockquote>
+<h1 id="Vultr"><a href="#Vultr" class="headerlink" title="Vultr"></a>Vultr</h1><blockquote>
+<p>Vultr</p>
+</blockquote>
+<p><img src="/" alt="" class="lazyload" data-src="https://hankai.oss-cn-beijing.aliyuncs.com/blogs-resource/picture/Image%20020.png"></p>
+<h1 id="Hostwinds"><a href="#Hostwinds" class="headerlink" title="Hostwinds"></a>Hostwinds</h1><blockquote>
+<p>Hostwinds</p>
+</blockquote>
+<p><img src="/" alt="" class="lazyload" data-src="https://hankai.oss-cn-beijing.aliyuncs.com/blogs-resource/picture/Image%20021.png"></p>
+<h1 id="搬瓦工"><a href="#搬瓦工" class="headerlink" title="搬瓦工"></a>搬瓦工</h1><blockquote>
+<p>搬瓦工</p>
+</blockquote>
+<p><img src="/" alt="" class="lazyload" data-src="https://hankai.oss-cn-beijing.aliyuncs.com/blogs-resource/picture/Image%20022.png"></p>
+<h1 id="DigitalOcean"><a href="#DigitalOcean" class="headerlink" title="DigitalOcean"></a>DigitalOcean</h1><blockquote>
+<p>DigitalOcean</p>
+</blockquote>
+<p><img src="/" alt="" class="lazyload" data-src="https://hankai.oss-cn-beijing.aliyuncs.com/blogs-resource/picture/Image%20023.png"></p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">小葵花</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://www.hkdj.site/posts/e9fd1d13.html">https://www.hkdj.site/posts/e9fd1d13.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/VPS/">VPS    </a><a class="post-meta__tags" href="/tags/VPS%E6%9C%8D%E5%8A%A1%E5%95%86/">VPS服务商    </a><a class="post-meta__tags" href="/tags/Linode/">Linode    </a><a class="post-meta__tags" href="/tags/Vultr/">Vultr    </a><a class="post-meta__tags" href="/tags/Hostwinds/">Hostwinds    </a><a class="post-meta__tags" href="/tags/DigitalOcean/">DigitalOcean    </a><a class="post-meta__tags" href="/tags/%E6%90%AC%E7%93%A6%E5%B7%A5/">搬瓦工    </a></div><div class="post_share"><div class="social-share" data-image="/img/post.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> Donate<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/wechat.jpg" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/alipay.jpg" alt="支付寶"/><div class="post-qr-code__desc">支付寶</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/posts/ccfd9e50.html"><img class="prev_cover lazyload" data-src="/img/post.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">【Django】数据库的增删改查</div></div></a></div><div class="next-post pull_right"><a href="/posts/e682b11e.html"><img class="next_cover lazyload" data-src="/img/post.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">【Django】安装配置阿里云发送验证码</div></div></a></div></nav></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By 小葵花</div><div class="framework-info"><span>Driven </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="Read Mode"></i><i class="fa fa-plus" id="font_plus" title="Increase font size"></i><i class="fa fa-minus" id="font_minus" title="Decrease font size"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="Traditional Chinese and Simplified Chinese Conversion" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-list-ul close" id="mobile-toc-button" title="Table of Contents" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script></body></html>
